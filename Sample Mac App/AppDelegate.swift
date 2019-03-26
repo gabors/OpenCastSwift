@@ -11,18 +11,18 @@ import OpenCastSwift
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-  let scanner = CastDeviceScanner()
-  var clients = [String: CastClient]()
-  
-  @IBOutlet weak var window: NSWindow!
-  
-  let menuBarController = StatusItemController()
-  
-  func applicationDidFinishLaunching(_ aNotification: Notification) {
-    
-  }
-  
-  func applicationWillTerminate(_ aNotification: Notification) {
-    // Insert code here to tear down your application
-  }
+    let scanner = CastDeviceScanner()
+    var clients = [String: CastClient]()
+
+    @IBOutlet weak var window: NSWindow!
+
+    let menuBarController = StatusItemController()
+
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+
+    }
+
+    func applicationWillTerminate(_ aNotification: Notification) {
+        // Insert code here to tear down your application
+    }
 }

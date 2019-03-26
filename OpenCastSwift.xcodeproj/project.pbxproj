@@ -58,7 +58,6 @@
 		027E35BE200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B7200E8A1400A863E6 /* HeartbeatChannel.swift */; };
 		027E35BF200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B7200E8A1400A863E6 /* HeartbeatChannel.swift */; };
 		027E35C0200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B7200E8A1400A863E6 /* HeartbeatChannel.swift */; };
-		027E35C2200E8AEA00A863E6 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027E35C1200E8AEA00A863E6 /* Result.framework */; };
 		027E35C5200E933800A863E6 /* CastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C4200E933800A863E6 /* CastMessage.swift */; };
 		027E35C6200E933800A863E6 /* CastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C4200E933800A863E6 /* CastMessage.swift */; };
 		027E35C7200E933800A863E6 /* CastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C4200E933800A863E6 /* CastMessage.swift */; };
@@ -157,7 +156,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				027E35C2200E8AEA00A863E6 /* Result.framework in Frameworks */,
 				0289007D200551B90024D80F /* SwiftyJSON.framework in Frameworks */,
 				0289007920054B870024D80F /* SwiftProtobuf.framework in Frameworks */,
 			);
@@ -421,7 +419,7 @@
 					};
 					DD674A371DB7E83400E1FC24 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 7XLNECBC46;
+						DevelopmentTeam = 8WB2V923XT;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
@@ -432,6 +430,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -596,7 +595,7 @@
 				PRODUCT_NAME = OpenCastSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -628,7 +627,7 @@
 				PRODUCT_NAME = OpenCastSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -660,7 +659,7 @@
 				PRODUCT_NAME = OpenCastSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 			};
@@ -692,7 +691,7 @@
 				PRODUCT_NAME = OpenCastSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 4.2;
@@ -838,7 +837,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -865,7 +864,7 @@
 				PRODUCT_NAME = OpenCastSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

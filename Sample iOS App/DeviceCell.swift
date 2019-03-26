@@ -9,5 +9,5 @@
 import UIKit
 
 class DeviceCell: UITableViewCell {
-  @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
 }
