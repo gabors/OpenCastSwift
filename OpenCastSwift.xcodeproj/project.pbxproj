@@ -45,8 +45,6 @@
 		02618E0120082EC00074AD87 /* CASTV2Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225C1DBACFE4004B5762 /* CASTV2Protocol.swift */; };
 		02618E0220082EC30074AD87 /* cast_channel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289007A20054B970024D80F /* cast_channel.pb.swift */; };
 		02618E0620082EDE0074AD87 /* CastClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC239471DB83E0200066B2F /* CastClient.swift */; };
-		02618E0C20082F620074AD87 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02618E0A20082F620074AD87 /* SwiftProtobuf.framework */; };
-		02618E0D20082F620074AD87 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02618E0B20082F620074AD87 /* SwiftyJSON.framework */; };
 		027E35B8200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */; };
 		027E35B9200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */; };
 		027E35BA200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */; };
@@ -97,24 +95,17 @@
 		0252C2B320113526002AE6A2 /* MultizoneControlChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultizoneControlChannel.swift; sourceTree = "<group>"; };
 		0252C2B520113B84002AE6A2 /* CastMultizoneStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMultizoneStatus.swift; sourceTree = "<group>"; };
 		0252C2B720113D7B002AE6A2 /* CastMultizoneDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMultizoneDevice.swift; sourceTree = "<group>"; };
-		02618DCD2008289E0074AD87 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		02618DE620082A200074AD87 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
-		02618DE720082A200074AD87 /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/iOS/SwiftProtobuf.framework; sourceTree = "<group>"; };
-		02618DF220082EA90074AD87 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		02618E0A20082F620074AD87 /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/watchOS/SwiftProtobuf.framework; sourceTree = "<group>"; };
-		02618E0B20082F620074AD87 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/watchOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		02618DCD2008289E0074AD87 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenCastSwift.framework; path = "/Users/gabor/Developer/WARNER/Forks/OpenCastSwift/build/Debug-iphoneos/OpenCastSwift.framework"; sourceTree = "<absolute>"; };
+		02618DF220082EA90074AD87 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenCastSwift.framework; path = "/Users/gabor/Developer/WARNER/Forks/OpenCastSwift/build/Debug-watchos/OpenCastSwift.framework"; sourceTree = "<absolute>"; };
 		027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverControlChannel.swift; sourceTree = "<group>"; };
 		027E35B6200E8A1400A863E6 /* CastChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastChannel.swift; sourceTree = "<group>"; };
 		027E35B7200E8A1400A863E6 /* HeartbeatChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartbeatChannel.swift; sourceTree = "<group>"; };
-		027E35C1200E8AEA00A863E6 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
 		027E35C4200E933800A863E6 /* CastMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastMessage.swift; sourceTree = "<group>"; };
 		027E35C8200EA7D800A863E6 /* MediaControlChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaControlChannel.swift; sourceTree = "<group>"; };
 		027E35CE200EAF0E00A863E6 /* DeviceSetupChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSetupChannel.swift; sourceTree = "<group>"; };
 		027E35D2200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDiscoveryChannel.swift; sourceTree = "<group>"; };
 		028733A7200932B90015266E /* CastV2PlatformReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastV2PlatformReader.swift; sourceTree = "<group>"; };
-		0289007820054B870024D80F /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/Mac/SwiftProtobuf.framework; sourceTree = "<group>"; };
 		0289007A20054B970024D80F /* cast_channel.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cast_channel.pb.swift; sourceTree = "<group>"; };
-		0289007C200551B80024D80F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
 		0298FB9B2009ACA600A0B016 /* cast_channel.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = cast_channel.proto; sourceTree = "<group>"; };
 		02F6F1EB2010059200CF01E1 /* RequestSink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSink.swift; sourceTree = "<group>"; };
 		02F6F1ED2010062300CF01E1 /* Channelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channelable.swift; sourceTree = "<group>"; };
@@ -125,7 +116,7 @@
 		DD1522651DBAD077004B5762 /* CastMediaStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastMediaStatus.swift; sourceTree = "<group>"; };
 		DD1522671DBAD9B9004B5762 /* CastMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastMedia.swift; sourceTree = "<group>"; };
 		DD274EAF1DB7EF7F00428530 /* CastDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastDevice.swift; sourceTree = "<group>"; };
-		DD674A381DB7E83500E1FC24 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD674A381DB7E83500E1FC24 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenCastSwift.framework; path = /Users/gabor/Developer/WARNER/Forks/OpenCastSwift/build/Debug/OpenCastSwift.framework; sourceTree = "<absolute>"; };
 		DD674A3B1DB7E83500E1FC24 /* ChromeCastCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChromeCastCore.h; sourceTree = "<group>"; };
 		DD674A3C1DB7E83500E1FC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD674A441DB7E89500E1FC24 /* CastDeviceScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastDeviceScanner.swift; sourceTree = "<group>"; };
@@ -146,8 +137,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02618E0C20082F620074AD87 /* SwiftProtobuf.framework in Frameworks */,
-				02618E0D20082F620074AD87 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,33 +161,6 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		02618E0720082F040074AD87 /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-				0289007C200551B80024D80F /* SwiftyJSON.framework */,
-				0289007820054B870024D80F /* SwiftProtobuf.framework */,
-			);
-			name = Mac;
-			sourceTree = "<group>";
-		};
-		02618E0820082F0A0074AD87 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				02618DE720082A200074AD87 /* SwiftProtobuf.framework */,
-				02618DE620082A200074AD87 /* SwiftyJSON.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		02618E0920082F0E0074AD87 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				02618E0A20082F620074AD87 /* SwiftProtobuf.framework */,
-				02618E0B20082F620074AD87 /* SwiftyJSON.framework */,
-			);
-			name = watchOS;
-			sourceTree = "<group>";
-		};
 		027E35C3200E8BB800A863E6 /* Channels */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +177,17 @@
 				020D54DF200EBA7A00CCA1B5 /* DeviceAuthChannel.swift */,
 			);
 			path = Channels;
+			sourceTree = "<group>";
+		};
+		14A6274223ADFC850088F517 /* OpenCastSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DD1522631DBAD041004B5762 /* Definitions */,
+				DDA6A4201DB9529E005DFD4E /* Helpers */,
+				DD1522621DBAD03D004B5762 /* Models */,
+				DD1522641DBAD04F004B5762 /* Networking */,
+			);
+			path = OpenCastSwift;
 			sourceTree = "<group>";
 		};
 		DD1522621DBAD03D004B5762 /* Models */ = {
@@ -255,29 +228,14 @@
 			isa = PBXGroup;
 			children = (
 				14A6274123ADB5820088F517 /* Package.swift */,
-				DDC239581DB8F73A00066B2F /* Frameworks */,
-				DD674A391DB7E83500E1FC24 /* Products */,
 				DD674A431DB7E85B00E1FC24 /* Sources */,
 			);
-			sourceTree = "<group>";
-		};
-		DD674A391DB7E83500E1FC24 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DD674A381DB7E83500E1FC24 /* OpenCastSwift.framework */,
-				02618DCD2008289E0074AD87 /* OpenCastSwift.framework */,
-				02618DF220082EA90074AD87 /* OpenCastSwift.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DD674A431DB7E85B00E1FC24 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DD1522631DBAD041004B5762 /* Definitions */,
-				DDA6A4201DB9529E005DFD4E /* Helpers */,
-				DD1522621DBAD03D004B5762 /* Models */,
-				DD1522641DBAD04F004B5762 /* Networking */,
+				14A6274223ADFC850088F517 /* OpenCastSwift */,
 				02618DD5200828F10074AD87 /* Supporting Files */,
 			);
 			path = Sources;
@@ -290,17 +248,6 @@
 				028733A7200932B90015266E /* CastV2PlatformReader.swift */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		DDC239581DB8F73A00066B2F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				027E35C1200E8AEA00A863E6 /* Result.framework */,
-				02618E0920082F0E0074AD87 /* watchOS */,
-				02618E0820082F0A0074AD87 /* iOS */,
-				02618E0720082F040074AD87 /* Mac */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DDD1B81A1DB911EE002D3E6B /* Proto */ = {
@@ -445,7 +392,7 @@
 				14A6273723ADAE6A0088F517 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				14A6273A23ADAE940088F517 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
 			);
-			productRefGroup = DD674A391DB7E83500E1FC24 /* Products */;
+			productRefGroup = DD674A2E1DB7E83400E1FC24;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
