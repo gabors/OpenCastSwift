@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,8 +33,6 @@
 		02618DDF200829440074AD87 /* cast_channel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289007A20054B970024D80F /* cast_channel.pb.swift */; };
 		02618DE2200829470074AD87 /* CastDeviceScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD674A441DB7E89500E1FC24 /* CastDeviceScanner.swift */; };
 		02618DE3200829470074AD87 /* CastClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC239471DB83E0200066B2F /* CastClient.swift */; };
-		02618DE820082A210074AD87 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02618DE620082A200074AD87 /* SwiftyJSON.framework */; };
-		02618DE920082A210074AD87 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02618DE720082A200074AD87 /* SwiftProtobuf.framework */; };
 		02618DEB20082A940074AD87 /* ChromeCastCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DD674A3B1DB7E83500E1FC24 /* ChromeCastCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02618DEC20082A940074AD87 /* ChromeCastCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DD674A3B1DB7E83500E1FC24 /* ChromeCastCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02618DFA20082EB80074AD87 /* ChromeCastCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DD674A3B1DB7E83500E1FC24 /* ChromeCastCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,16 +69,17 @@
 		027E35D4200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35D2200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift */; };
 		027E35D5200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35D2200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift */; };
 		028733AD200949E00015266E /* CastV2PlatformReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028733A7200932B90015266E /* CastV2PlatformReader.swift */; };
-		0289007720054A960024D80F /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 0289007620054A960024D80F /* Cartfile */; };
-		0289007920054B870024D80F /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0289007820054B870024D80F /* SwiftProtobuf.framework */; };
 		0289007B20054B970024D80F /* cast_channel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289007A20054B970024D80F /* cast_channel.pb.swift */; };
-		0289007D200551B90024D80F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0289007C200551B80024D80F /* SwiftyJSON.framework */; };
 		0298FB952009955600A0B016 /* CastV2PlatformReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028733A7200932B90015266E /* CastV2PlatformReader.swift */; };
 		0298FB962009955600A0B016 /* CastV2PlatformReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028733A7200932B90015266E /* CastV2PlatformReader.swift */; };
 		02F6F1EC2010059200CF01E1 /* RequestSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1EB2010059200CF01E1 /* RequestSink.swift */; };
 		02F6F1EE2010062300CF01E1 /* Channelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1ED2010062300CF01E1 /* Channelable.swift */; };
 		02F6F1EF2010066F00CF01E1 /* Channelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1ED2010062300CF01E1 /* Channelable.swift */; };
 		02F6F1F02010066F00CF01E1 /* Channelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1ED2010062300CF01E1 /* Channelable.swift */; };
+		14A6273923ADAE6A0088F517 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 14A6273823ADAE6A0088F517 /* SwiftyJSON */; };
+		14A6273C23ADAE940088F517 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 14A6273B23ADAE940088F517 /* SwiftProtobuf */; };
+		14A6273E23ADB2780088F517 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 14A6273D23ADB2780088F517 /* SwiftProtobuf */; };
+		14A6274023ADB27D0088F517 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 14A6273F23ADB27D0088F517 /* SwiftyJSON */; };
 		DD15225D1DBACFE4004B5762 /* CASTV2Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225C1DBACFE4004B5762 /* CASTV2Protocol.swift */; };
 		DD15225F1DBAD013004B5762 /* CastStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225E1DBAD013004B5762 /* CastStatus.swift */; };
 		DD1522611DBAD02D004B5762 /* CastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522601DBAD02D004B5762 /* CastApp.swift */; };
@@ -113,7 +112,6 @@
 		027E35CE200EAF0E00A863E6 /* DeviceSetupChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSetupChannel.swift; sourceTree = "<group>"; };
 		027E35D2200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDiscoveryChannel.swift; sourceTree = "<group>"; };
 		028733A7200932B90015266E /* CastV2PlatformReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastV2PlatformReader.swift; sourceTree = "<group>"; };
-		0289007620054A960024D80F /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		0289007820054B870024D80F /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/Mac/SwiftProtobuf.framework; sourceTree = "<group>"; };
 		0289007A20054B970024D80F /* cast_channel.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cast_channel.pb.swift; sourceTree = "<group>"; };
 		0289007C200551B80024D80F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
@@ -138,8 +136,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02618DE820082A210074AD87 /* SwiftyJSON.framework in Frameworks */,
-				02618DE920082A210074AD87 /* SwiftProtobuf.framework in Frameworks */,
+				14A6273923ADAE6A0088F517 /* SwiftyJSON in Frameworks */,
+				14A6273C23ADAE940088F517 /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,8 +154,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0289007D200551B90024D80F /* SwiftyJSON.framework in Frameworks */,
-				0289007920054B870024D80F /* SwiftProtobuf.framework in Frameworks */,
+				14A6274023ADB27D0088F517 /* SwiftyJSON in Frameworks */,
+				14A6273E23ADB2780088F517 /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +256,6 @@
 				DDC239581DB8F73A00066B2F /* Frameworks */,
 				DD674A391DB7E83500E1FC24 /* Products */,
 				DD674A431DB7E85B00E1FC24 /* Source */,
-				0289007620054A960024D80F /* Cartfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -357,6 +354,10 @@
 			dependencies = (
 			);
 			name = "OpenCastSwift iOS";
+			packageProductDependencies = (
+				14A6273823ADAE6A0088F517 /* SwiftyJSON */,
+				14A6273B23ADAE940088F517 /* SwiftProtobuf */,
+			);
 			productName = "ChromeCastCore-iOS";
 			productReference = 02618DCD2008289E0074AD87 /* OpenCastSwift.framework */;
 			productType = "com.apple.product-type.framework";
@@ -393,6 +394,10 @@
 			dependencies = (
 			);
 			name = "OpenCastSwift Mac";
+			packageProductDependencies = (
+				14A6273D23ADB2780088F517 /* SwiftProtobuf */,
+				14A6273F23ADB27D0088F517 /* SwiftyJSON */,
+			);
 			productName = ChromeCastCore;
 			productReference = DD674A381DB7E83500E1FC24 /* OpenCastSwift.framework */;
 			productType = "com.apple.product-type.framework";
@@ -434,6 +439,10 @@
 				Base,
 			);
 			mainGroup = DD674A2E1DB7E83400E1FC24;
+			packageReferences = (
+				14A6273723ADAE6A0088F517 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				14A6273A23ADAE940088F517 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+			);
 			productRefGroup = DD674A391DB7E83500E1FC24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -464,7 +473,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0289007720054A960024D80F /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,7 +578,7 @@
 		02618DD32008289E0074AD87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -582,15 +590,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.ChromeCastCore-iOS";
 				PRODUCT_NAME = OpenCastSwift;
 				SDKROOT = iphoneos;
@@ -603,7 +612,7 @@
 		02618DD42008289E0074AD87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -615,15 +624,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.ChromeCastCore-iOS";
 				PRODUCT_NAME = OpenCastSwift;
 				SDKROOT = iphoneos;
@@ -648,14 +658,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.ChromeCastCore-watchOS";
 				PRODUCT_NAME = OpenCastSwift;
 				SDKROOT = watchos;
@@ -680,14 +691,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.ChromeCastCore-watchOS";
 				PRODUCT_NAME = OpenCastSwift;
 				SDKROOT = watchos;
@@ -703,7 +715,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -766,7 +778,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -811,7 +823,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -827,14 +840,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.ChromeCastCore;
@@ -856,14 +870,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.ChromeCastCore;
 				PRODUCT_NAME = OpenCastSwift;
@@ -913,6 +928,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14A6273723ADAE6A0088F517 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		14A6273A23ADAE940088F517 /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14A6273823ADAE6A0088F517 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14A6273723ADAE6A0088F517 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		14A6273B23ADAE940088F517 /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14A6273A23ADAE940088F517 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		14A6273D23ADB2780088F517 /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14A6273A23ADAE940088F517 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		14A6273F23ADB27D0088F517 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14A6273723ADAE6A0088F517 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD674A2F1DB7E83400E1FC24 /* Project object */;
 }
